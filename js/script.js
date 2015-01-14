@@ -5,8 +5,7 @@ $(document).ready(function(){
 	$(".modulo1").fadeTo("fast",0.6)
 		var pais = $("input[name=pais]").val();
 		var depto = $("input[name=depto]").val();
-		var grados
-		 = $("input[name=grados]").val();
+		var grados = $("input[name=grados]").val();
 		if (depto.length!=0 && pais.length!=0){
 			jQuery(document).ready(function($) { 
 				var codPais = "";
